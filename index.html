@@ -12,6 +12,37 @@
 </head>
 
 <body>
+    <form class="one" name="form_one">
+        <h1>первая страница</h1>
+        <h2>кркпежные изделия</h2>
+        <select name="select_one" id="sel_one">
+            <option value="one" >выберите из списка</option>
+            <option value="bolt">болт</option>
+            <option value="screw">гайка</option>
+            <option value="self_tapping_screw">шурупы, саморезы</option>
+            <option value="nail">гвозди</option>
+            <option value="washer">шайбы</option>
+            <option value="helix_screw">винты</option>
+            <option value="anchor">анкеры</option>
+            <option value="pin">штифты</option>
+            <option value="rivet">заклепки</option>
+            <option value="dowel">дюбели</option>
+        </select>
+        <select name="si" id="si">
+            <!-- <option value="">ds,hfnm</option> -->
+            <option value="metr">метрическая</option>
+            <option value="inch">дюймовая</option>
+        </select>
+        <div class="create_inp">
+            <h2>добавить вид </h2>
+            <input type="text" name="inpt_create">
+            <button name="btn_create"> save</button> 
+        </div>
+    </form>
+
+
+
+
     <div class="app">
         <h1>
             крепежные изделия
@@ -22,11 +53,7 @@
             <option value="create">создать элемент</option>
 
         </select>
-        <select name="si" id="si">
-            <!-- <option value="">ds,hfnm</option> -->
-            <option value="metr">метрическая</option>
-            <option value="inch">дюймовая</option>
-        </select>
+
     </div>
     <form name="create_option" class="window hide">
         <p>создаем тут елемент</p>

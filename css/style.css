@@ -1,4 +1,11 @@
 .hide {
   display: none;
 }
+
+.one {
+  padding: 15px;
+  border: 1px solid #252525;
+  max-width: 400px;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,13 @@
 
 export default function measuring_system() {
     let select = document.querySelector('#si')
+    let inch
     // console.log(select);
+
+    const SI = {
+        'metr': 1,
+        'dm': 0, 
+    }
 
     select.addEventListener('change', () => {
         if (select.value === 'metr') {
@@ -14,8 +20,7 @@ export default function measuring_system() {
             console.log('дюймовая');
         }
     })
-
-    return 
+    return inch
 }
 
 
