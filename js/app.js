@@ -107,9 +107,9 @@ function one_page() {
 console.log(one_page_data.input.value);
 
 function bolte (){
-  console.log(1);
-
+  console.log(one_page_data.select.length);
 }
+bolte()
 
 
 
