@@ -41,6 +41,24 @@ let handler_one_form = create_option(one_form)
 
 one_form.addEventListener('click',handler_one_form)
 
+let item_form = document.forms.item_form
+let ul = document.querySelector('.ul')
+let sel_one = document.querySelector('#sel_one')
+
+
+
+sel_one.addEventListener('change', ()=>{
+
+  let options = new Array(sel_one.options)
+  // console.log(options);
+  options.forEach(item =>{
+    console.log(item);
+
+  })
+
+})
+
+
 
 
 

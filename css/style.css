@@ -8,4 +8,11 @@
   max-width: 400px;
   width: 100%;
 }
+
+.item_form {
+  margin-top: 25px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid red;
+}
 /*# sourceMappingURL=style.css.map */
