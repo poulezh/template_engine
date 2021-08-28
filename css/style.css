@@ -13,6 +13,9 @@
   margin-top: 25px;
   width: 400px;
   height: 400px;
-  border: 1px solid red;
+}
+
+.br1 {
+  border: 1px solid #252525;
 }
 /*# sourceMappingURL=style.css.map */

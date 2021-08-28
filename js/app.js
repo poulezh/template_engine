@@ -48,15 +48,19 @@ let sel_one = document.querySelector('#sel_one')
 
 
 sel_one.addEventListener('change', ()=>{
-
-  let options = new Array(sel_one.options)
-  // console.log(options);
-  options.forEach(item =>{
-    console.log(item);
-
-  })
-
+  let selectedOption = sel_one.options[sel_one.selectedIndex];
+  // console.log(selectedOption.value);
+  item_form.classList.remove('hide')
+  one_form.classList.add('hide')
 })
+
+let li = [...document.querySelectorAll('.li')]
+li.forEach(item=>{
+  console.log(item.childNodes.length);
+  item.childNodes
+})
+
+// console.log(li);
 
 
 
